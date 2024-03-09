@@ -1,2 +1,2 @@
 spec:
-  namespace: metallb
+  namespace: httpbin
