@@ -1,2 +1,3 @@
-# httpbingo
-`httpbingo` Argo CD application
+# httpbin
+
+`go-httpbin` Argo CD application

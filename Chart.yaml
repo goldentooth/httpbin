@@ -1,0 +1,6 @@
+apiVersion: 'v2'
+name: 'httpbin'
+description: 'go-httpbin is a HTTP request & response service, built in Go.'
+type: 'application'
+version: '0.0.1'
+appVersion: '0.0.1'
