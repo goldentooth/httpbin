@@ -9,5 +9,5 @@ spec:
       port: 80
       targetPort: 8080
   selector:
-    app.kubernetes.io/name: httpbin
+    labels: httpbin
   type: LoadBalancer

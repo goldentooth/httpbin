@@ -3,10 +3,11 @@ kind: Deployment
 metadata:
   name: httpbin
   namespace: "{{ .Values.spec.namespace }}"
-  labels:
-    app.kubernetes.io/name: httpbin
 spec:
   template:
+    metadata:
+      labels:
+        app: httpbin
     spec:
       containers:
         - name: httpbin
