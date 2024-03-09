@@ -4,6 +4,9 @@ metadata:
   name: httpbin
   namespace: "{{ .Values.spec.namespace }}"
 spec:
+  selector:
+    matchLabels:
+      app: httpbin
   template:
     metadata:
       labels:

@@ -9,5 +9,6 @@ spec:
       port: 80
       targetPort: 8080
   selector:
-    labels: httpbin
+    labels:
+      app: httpbin
   type: LoadBalancer
