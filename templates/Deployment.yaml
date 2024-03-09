@@ -4,7 +4,7 @@ metadata:
   name: httpbin
   namespace: "{{ .Values.spec.namespace }}"
   labels:
-    app: httpbin
+    app.kubernetes.io/name: httpbin
 spec:
   template:
     spec:
