@@ -5,6 +5,7 @@ metadata:
   namespace: "{{ .Values.spec.namespace }}"
   annotations:
     external-dns.alpha.kubernetes.io/hostname: "{{ .Values.spec.appName }}.{{ .Values.spec.domain }}"
+    external-dns.alpha.kubernetes.io/ttl: "60"
 spec:
   ports:
     - name: http
