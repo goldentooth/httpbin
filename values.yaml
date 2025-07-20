@@ -1,4 +1,4 @@
 spec:
   appName: httpbin
   namespace: httpbin
-  domain: goldentooth.net
+  domain: services.k8s.goldentooth.net
